@@ -10,7 +10,7 @@
 🌍 **Location:** Rohtas, Bihar  
 🎓 **Education:** Bachelor's in Computer Science Engineering (2022 - 2026) at **Chandigarh University**  
 💼 **Current Role:** Full Stack Developer Intern at **OctaNet Services Pvt Ltd**  
-🌟 **Portfolio:** [Click Here](https://tinyurl.com/AKG-Portfolio)
+🌟 **Portfolio:** [Click Here](https://aaditya-kumar-gupta.github.io/My-Portfolio/)
 
 ---
 
