@@ -53,16 +53,16 @@
 
 <table>
 <tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=Aaditya-Kumar-Gupta&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/></td>
+<td><img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/stats.svg" alt="GitHub Stats"/></td>
 <td><img src="https://streak-stats.demolab.com/?user=Aaditya-Kumar-Gupta&theme=tokyonight&hide_border=true" alt="GitHub Streak"/></td>
 </tr>
 </table>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaditya-Kumar-Gupta&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%"/>
+<img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/languages.svg" alt="Top Languages" width="48%"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aaditya-Kumar-Gupta&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="95%"/>
+<img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/activity.svg" alt="Activity Graph" width="95%"/>
 
-<img src="https://github-profile-trophy-liard-delta.vercel.app/?username=Aaditya-Kumar-Gupta&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8" alt="GitHub Trophies"/>
+<img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/trophy.svg" alt="GitHub Trophies"/>
 
 </div>
 
@@ -71,7 +71,7 @@
 ## 🚀 Featured Projects
 
 ### 🗂️ PDFPilot — Local PDF Toolkit
-<a href="https://aaditya-kumar-gupta.github.io/PDFPilot/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Aaditya-Kumar-Gupta&repo=PDFPilot&theme=tokyonight&hide_border=true" alt="PDFPilot repo card"/></a>
+<a href="https://aaditya-kumar-gupta.github.io/PDFPilot/"><img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/project-PDFPilot.svg" alt="PDFPilot repo card"/></a>
 
 A privacy-first desktop PDF app for Windows built with **Python** and **PySide6/Qt** — zero cloud uploads, everything runs offline.
 - 25 offline PDF tools across six categories: Organize, Optimize, Convert, Edit and Security
@@ -85,7 +85,7 @@ A privacy-first desktop PDF app for Windows built with **Python** and **PySide6/
 <br/>
 
 ### 🌦️ Weather App — Real-Time Weather Analytics
-<a href="https://aditya-weather-app.vercel.app/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Aaditya-Kumar-Gupta&repo=real-time_weather-app&theme=tokyonight&hide_border=true" alt="Weather App repo card"/></a>
+<a href="https://aditya-weather-app.vercel.app/"><img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/project-real-time_weather-app.svg" alt="Weather App repo card"/></a>
 
 A real-time weather analytics dashboard built on the **MERN stack** with OpenWeather API integration.
 - Interactive, city-wise weather visualization dashboard
@@ -99,7 +99,7 @@ A real-time weather analytics dashboard built on the **MERN stack** with OpenWea
 <br/>
 
 ### 📰 NewsHub — Dynamic News Portal
-<a href="https://news-hub.page.gd/login.html"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Aaditya-Kumar-Gupta&repo=NewsHub&theme=tokyonight&hide_border=true" alt="NewsHub repo card"/></a>
+<a href="https://news-hub.page.gd/login.html"><img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/project-NewsHub.svg" alt="NewsHub repo card"/></a>
 
 A device-friendly news web app with real-time content delivery via public news APIs.
 - Real-time news fetching and dynamic, up-to-date content
