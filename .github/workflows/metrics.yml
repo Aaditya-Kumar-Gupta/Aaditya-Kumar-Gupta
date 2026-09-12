@@ -18,7 +18,6 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
-          theme: github-dark
 
           # Core profile stats (repos, stars, followers, commits)
           base: header, activity, community, repositories, metadata
