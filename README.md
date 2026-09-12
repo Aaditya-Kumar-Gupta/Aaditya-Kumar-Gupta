@@ -163,3 +163,5 @@ A device-friendly news web app with real-time content delivery via public news A
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=150&section=footer&animation=fadeIn" alt="footer wave" width="100%"/>
 
 </div>
+
+<!-- profile-card-workflow-trigger -->
