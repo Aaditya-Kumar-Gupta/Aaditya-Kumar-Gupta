@@ -1,6 +1,7 @@
+# Self-hosted profile-card generator
+# Data is fetched from GitHub at workflow runtime.
 import json, os, urllib.request
 from collections import Counter
-from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 
 USER = "Aaditya-Kumar-Gupta"
@@ -38,7 +39,6 @@ followers = user.get("followers", 0)
 following = user.get("following", 0)
 stars = sum(r.get("stargazers_count",0) for r in repos)
 
-# Languages from owned repositories.
 langs = Counter()
 for r in repos:
     try:
@@ -47,10 +47,9 @@ for r in repos:
 total = sum(langs.values()) or 1
 lang_rows = sorted(langs.items(), key=lambda x:x[1], reverse=True)[:8]
 
-# Contribution data (requires the workflow's normal GitHub token).
-contrib = {"totalCommitContributions":0,"totalIssueContributions":0,"totalPullRequestContributions":0,"totalRepositoryContributions":0,"restrictedContributionsCount":0,"contributionCalendar":{"totalContributions":0,"weeks":[]}}
+contrib = {"totalCommitContributions":0,"totalIssueContributions":0,"totalPullRequestContributions":0,"totalRepositoryContributions":0,"contributionCalendar":{"totalContributions":0,"weeks":[]}}
 try:
-    q='''query { user(login:"%s") { contributionsCollection { totalCommitContributions totalIssueContributions totalPullRequestContributions totalRepositoryContributions restrictedContributionsCount contributionCalendar { totalContributions weeks { contributionDays { contributionCount date } } } } } }''' % USER
+    q='''query { user(login:"%s") { contributionsCollection { totalCommitContributions totalIssueContributions totalPullRequestContributions totalRepositoryContributions contributionCalendar { totalContributions weeks { contributionDays { contributionCount date } } } } } }''' % USER
     contrib = graphql(q)["data"]["user"]["contributionsCollection"]
 except Exception: pass
 
@@ -67,16 +66,13 @@ for i,(lang,n) in enumerate(lang_rows):
     body += text(35,y+12,lang,'t',13)+f'<rect x="150" y="{y}" width="500" height="12" rx="6" fill="#292e42"/><rect x="150" y="{y}" width="{500*pct/100:.1f}" height="12" rx="6" fill="#7aa2f7"/>'+text(670,y+12,f"{pct:.1f}%",'s',12)
 svg("languages.svg",body,760,max(190,70+len(lang_rows)*18))
 
-# Contribution calendar, generated locally from GitHub's API data.
 days=[]
 for week in contrib.get("contributionCalendar",{}).get("weeks",[]): days.extend(week.get("contributionDays",[]))
 levels=[0,1,3,6,10]
 def level(n): return sum(n>=x for x in levels)-1
 body=text(30,34,"Contribution Activity",'t',20)+text(30,55,f"{len(days)} days • {contrib.get('contributionCalendar',{}).get('totalContributions',0)} contributions",'s',12)
-startx,starty=30,70
 for i,d in enumerate(days[-364:]):
-    x=startx+(i//7)*12; y=starty+(i%7)*12
-    n=d.get("contributionCount",0); lv=level(n)
+    x=30+(i//7)*12; y=70+(i%7)*12; n=d.get("contributionCount",0); lv=level(n)
     fill=['#16161e','#1f3a36','#285f4f','#3b8f6e','#73daca'][max(0,lv)]
     body += f'<rect x="{x}" y="{y}" width="9" height="9" rx="2" fill="{fill}"/>'
 svg("activity.svg",body,760,175)
@@ -91,5 +87,4 @@ for repo,stack,url in projects:
     try: r=get(f"{API}/repos/{USER}/{repo}")
     except Exception: r={"stargazers_count":0,"forks_count":0,"description":""}
     body=text(28,42,repo,'v',22)+text(28,72,stack,'s',14)+text(28,110,(r.get('description') or 'GitHub project')[:85],'t',13)+text(28,155,f"★ {r.get('stargazers_count',0)}    Forks {r.get('forks_count',0)}",'t',13)+text(28,188,url,'s',12)
-    safe=repo.replace('/','-')
-    svg(f"project-{safe}.svg",body,760,215)
+    svg(f"project-{repo.replace('/','-')}.svg",body,760,215)
