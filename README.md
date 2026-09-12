@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=Aditya%20Kumar%20Gupta&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Web%20Developer&descAlignY=58&descSize=20&descColor=4ECDC4" alt="header banner" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=Aditya%20Kumar%20Gupta&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%7C%20Full%20Stack%20Web%20Developer&descAlignY=58&descSize=20&descColor=4ECDC4" alt="header banner" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=23&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=700&lines=Full+Stack+Web+Developer+%F0%9F%92%BB;Java%2C+JavaScript%2C+React+and+Node.js;Turning+Ideas+Into+Scalable+Web+Apps;Open+to+Full-Stack+and+MERN+Collaborations" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=23&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=700&lines=AI+%26+Full+Stack+Web+Developer+%F0%9F%92%BB;Java%2C+JavaScript%2C+React+and+Node.js;Turning+Ideas+Into+Scalable+Web+Apps;Open+to+Full-Stack+and+MERN+Collaborations" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -26,11 +26,11 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 Final-year **B.E. in Computer Science Engineering** student at Chandigarh University *(2022 – 2026)*
+- 🎓 **B.E. in Computer Science Engineering** student at Chandigarh University *(2022 – 2026)*
 - 💻 Web developer with hands-on experience across **Java, JavaScript, React and Node.js**
 - 🏗️ Focused on building high-performance, user-friendly web applications
 - 🌱 Always exploring new tools and technologies, and open to collaborating on full-stack or Java projects
-- 💬 Ask me about **Java, Full-Stack Development, or the MERN stack**
+- 💬 Ask me about **Full-Stack Development, or the MERN stack**
 - 📫 Reach me at **adityakumargupta6043@gmail.com**
 
 ---
@@ -70,7 +70,7 @@
 
 ## 🚀 Featured Projects
 
-### 🗂️ PDFPilot — Local PDF Toolkit
+### 🗂️ PDFPilot (Local PDF Toolkit)
 <a href="https://aaditya-kumar-gupta.github.io/PDFPilot/"><img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/project-PDFPilot.svg" alt="PDFPilot repo card"/></a>
 
 A privacy-first desktop PDF app for Windows built with **Python** and **PySide6/Qt** — zero cloud uploads, everything runs offline.
@@ -80,11 +80,18 @@ A privacy-first desktop PDF app for Windows built with **Python** and **PySide6/
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Qt%20(PySide6)-41CD52?style=flat-square&logo=qt&logoColor=white"/> <img src="https://img.shields.io/badge/Tesseract%20OCR-4285F4?style=flat-square"/> <img src="https://img.shields.io/badge/Desktop%20App-555555?style=flat-square"/>
 
-🔗 [Live Site](https://aaditya-kumar-gupta.github.io/PDFPilot/) • [Source Code](https://github.com/Aaditya-Kumar-Gupta/PDFPilot)
+<p align="left">
+  <a href="https://aaditya-kumar-gupta.github.io/PDFPilot/">
+    <img src="https://img.shields.io/badge/📄%20Live%20Demo-5B8CFF?style=for-the-badge&logoColor=white" alt="Live Site">
+  </a>
+  <a href="https://github.com/Aaditya-Kumar-Gupta/PDFPilot">
+    <img src="https://img.shields.io/badge/💻%20Source%20Code-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
+  </a>
+</p>
 
 <br/>
 
-### 🌦️ Weather App — Real-Time Weather Analytics
+### 🌦️ Weather App (Real-Time Weather Analytics)
 <a href="https://aditya-weather-app.vercel.app/"><img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/project-real-time_weather-app.svg" alt="Weather App repo card"/></a>
 
 A real-time weather analytics dashboard built on the **MERN stack** with OpenWeather API integration.
@@ -94,11 +101,19 @@ A real-time weather analytics dashboard built on the **MERN stack** with OpenWea
 
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/OpenWeather%20API-EB6E4B?style=flat-square&logo=openweathermap&logoColor=white"/>
 
-🔗 [Live Demo](https://aditya-weather-app.vercel.app/) • [Source Code](https://github.com/Aaditya-Kumar-Gupta/real-time_weather-app)
+<p align="left">
+  <a href="https://aditya-weather-app.vercel.app/">
+    <img src="https://img.shields.io/badge/🌤️%20Live%20Demo-5B8CFF?style=for-the-badge&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="https://github.com/Aaditya-Kumar-Gupta/real-time_weather-app">
+    <img src="https://img.shields.io/badge/💻%20Source%20Code-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
+  </a>
+</p>
+
 
 <br/>
 
-### 📰 NewsHub — Dynamic News Portal
+### 📰 NewsHub (Dynamic News Portal)
 <a href="https://news-hub.page.gd/login.html"><img src="https://raw.githubusercontent.com/Aaditya-Kumar-Gupta/Aaditya-Kumar-Gupta/main/profile-cards/project-NewsHub.svg" alt="NewsHub repo card"/></a>
 
 A device-friendly news web app with real-time content delivery via public news APIs.
@@ -108,35 +123,15 @@ A device-friendly news web app with real-time content delivery via public news A
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/REST%20API-FF6C37?style=flat-square"/>
 
-🔗 [Live Demo](https://news-hub.page.gd/login.html) • [Source Code](https://github.com/Aaditya-Kumar-Gupta/NewsHub)
+<p align="left">
+  <a href="https://news-hub.page.gd/login.html">
+    <img src="https://img.shields.io/badge/🔗%20Live%20Demo-5B8CFF?style=for-the-badge&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="https://github.com/Aaditya-Kumar-Gupta/NewsHub">
+    <img src="https://img.shields.io/badge/💻%20Source%20Code-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
+  </a>
+</p>
 
----
-
-## 💼 Experience
-
-| Role | Company | Duration |
-|---|---|---|
-| Web Developer Intern | TechOctanet Pvt. Ltd. *(Remote)* | Jan 2025 – Feb 2025 |
-
-- Developed and maintained fully responsive web applications to improve user engagement
-- Implemented dynamic UI components with **React**, ensuring cross-browser compatibility
-- Built reusable frontend components for consistency and faster development cycles
-
----
-
-## 🏅 Achievements
-
-- 🏆 Scored **92** in the Advance Credit Coding Bootcamp, Chandigarh University *(2022)*
-- 🥉 **3rd Runner-Up** — NITI Youth Parliament *(2023)*; participant, Tech Invent National Youth Parliament *(2024)*
-- ⚛️ Completed a **30-day in-house Summer Training on ReactJS** *(2024)*
-- 💡 Participated in **Hackfest 2025**, a hackathon organized by Chandigarh University in collaboration with SAP
-
-## 📜 Certifications
-
-- ✅ Introduction to Databases — **Meta**
-- ✅ Developing Front-End Apps with React — **IBM**
-- ✅ Interactivity with JavaScript and jQuery — **Coursera**
-- ✅ Java Full Stack Developer Specialization — **Board Infinity**
 
 ---
 
@@ -144,11 +139,11 @@ A device-friendly news web app with real-time content delivery via public news A
 <summary>🎓 <b>Education Details</b></summary>
 <br/>
 
-| Qualification | Institution | Score |
-|---|---|---|
-| B.E. in Computer Science Engineering *(2022 – 2026)* | Chandigarh University, Gharuan, Mohali, Punjab | CGPA: 7.76 |
-| Intermediate (CBSE), 2022 | Model School Dalmianagar, Rohtas, Bihar | 66% |
-| Matriculation (CBSE), 2018 | Model School Dalmianagar, Rohtas, Bihar | 63.84% |
+| Qualification | Institution |
+|---|---|
+| B.E. in Computer Science Engineering *(2022 – 2026)* | Chandigarh University, Gharuan, Mohali, Punjab |
+| Intermediate (CBSE), 2022 | Model School Dalmianagar, Rohtas, Bihar |
+| Matriculation (CBSE), 2018 | Model School Dalmianagar, Rohtas, Bihar |
 
 </details>
 
